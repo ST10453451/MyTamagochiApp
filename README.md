@@ -22,3 +22,9 @@ Now, look at how my game appears when i run it
 ![image](https://github.com/ST10453451/MyTamagochiApp/assets/161457026/b1695045-e16f-4f17-9760-6cf744dc42d2)
 
 I had no issue pushing my app to gitHub, it was one of the easiest tasks.
+I ended up removing the background because it seems to be the one giving me problems with contraints. This made me sad because i had a vision of how my game was going to loo with trhe background. Now it looks dry since i removed the background. The main thing is that the game is working exactly how I wanted it to work. This is the game interface with the backround removed
+
+![image](https://github.com/ST10453451/MyTamagochiApp/assets/161457026/8d0fa217-761f-4263-bf91-716a4d435b16)
+
+![image](https://github.com/ST10453451/MyTamagochiApp/assets/161457026/a7f835f5-e0dd-4426-b9c1-7617fec62d91)
+
