@@ -6,4 +6,169 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity2">
 
+    <ImageView
+        android:id="@+id/imageViewPet"
+        android:layout_width="0dp"
+        android:layout_height="605dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="38dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/welcome_pet" />
+
+    <Button
+        android:id="@+id/btnFeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#FFC7EA"
+        android:text="FEED"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewPet"
+        app:layout_constraintStart_toStartOf="@+id/btnPlay" />
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:backgroundTint="#FBF0B2"
+        android:text="PLAY"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewPet"
+        app:layout_constraintTop_toTopOf="@+id/imageViewPet" />
+
+    <Button
+        android:id="@+id/btnHygiene"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#D8B4F8"
+        android:text="BATH"
+        app:layout_constraintStart_toStartOf="@+id/btnPlay"
+        app:layout_constraintTop_toBottomOf="@+id/btnPlay" />
+
+    <ProgressBar
+        android:id="@+id/progressBarHunger"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="2dp"
+        android:progress="20"
+        android:progressTint="#F44336"
+        app:layout_constraintBottom_toBottomOf="@+id/textView6"
+        app:layout_constraintStart_toEndOf="@+id/textView6" />
+
+    <ProgressBar
+        android:id="@+id/progressBarHappiness"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="3dp"
+        android:progress="20"
+        android:progressTint="#F44336"
+        app:layout_constraintBottom_toBottomOf="@+id/textView7"
+        app:layout_constraintStart_toEndOf="@+id/textView7" />
+
+    <ProgressBar
+        android:id="@+id/progressBarHygiene"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:progress="20"
+        android:progressTint="#F44336"
+        app:layout_constraintBottom_toBottomOf="@+id/textView8"
+        app:layout_constraintStart_toEndOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="51dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="26dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="It's care time!"
+        android:textColor="#EABB91"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnFeed"
+        app:layout_constraintEnd_toEndOf="@+id/btnFeed"
+        app:layout_constraintStart_toStartOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textViewDisplay"
+        android:layout_width="198dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginBottom="68dp"
+        android:fontFamily="@font/fredoka_one"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="#DF9A5B"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewPet"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="34dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Hunger"
+        android:textColor="#eabb91"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewPet"
+        app:layout_constraintEnd_toStartOf="@+id/progressBarHappiness"
+        app:layout_constraintStart_toStartOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Happiness"
+        android:textColor="#EABB91"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/imageViewPet"
+        app:layout_constraintTop_toTopOf="@+id/imageViewPet" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="5dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Hygiene"
+        android:textColor="#EABB91"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.02872777" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
