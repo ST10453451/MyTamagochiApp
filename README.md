@@ -5,7 +5,7 @@ The first activity has a joyful image of the Golden retriever, a warm welcome me
 
 The second activitiy includes a lot of views; an image view that will diplay te same oicture of the golden retriever from the first activity, three progress bars that will change colours and levels based on the statuses of the dog's hunger, hapinness and hygiene.
 It also has three buttons that will allow the player to bath, feed and play with the dog. The intresting part is that the buttons' functions do not end there, they also allow the user to starve, upset and make the dog muddy. I chose thet word 'dirty' for my make muddy button because seems to be the sshortest word i can use to avoid messing with the size of my button.
-The second activity works with 7 different images, namely, the dog bathing image, the dog playing image, the dog eating image, the dog sad image, the dog hungry image, the dog muddy image as well as the default image shi=owing the dog joyful.
+The second activity works with 7 different images, namely, the dog bathing image, the dog playing image, the dog eating image, the dog sad image, the dog hungry image, the dog muddy image as well as the default image showing the dog joyful.
 
 I put a text view that displays the results of any action taken' for example, when the player clicks the feed button, the text view will display a message written "Thank you for feeding me, I ma full." 
 I used a cute pastel colour palette for my game.
